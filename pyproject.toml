@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "structured-output-performance"
+version = "0.1.0"
+description = ""
+authors = ["Matt Florence <matt@mattflo.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.1.14"
+set-env-colab-kaggle-dotenv = "^0.1.2"
+langchain-mistralai = "^0.1.0"
+langchain-groq = "^0.1.0"
+langchain-openai = "^0.1.1"
+langchain-fireworks = "^0.1.1"
+plotly = "^5.20.0"
+pandas = "^2.2.1"
+nbformat = "^5.10.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
